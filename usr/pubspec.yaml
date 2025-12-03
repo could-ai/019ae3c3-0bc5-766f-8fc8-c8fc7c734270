@@ -1,5 +1,5 @@
-name: couldai_user_app
-description: "A complete Sky Jump Legends game in Flutter."
+name: neon_physics_breaker
+description: "A professional Neon Physics Breaker game."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,8 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # Game Engine
+  # Game Engine & Physics
   flame: ^1.16.0
+  flame_forge2d: ^0.16.0 # Crucial for real physics
   flame_audio: ^2.1.0
   
   # State Management
